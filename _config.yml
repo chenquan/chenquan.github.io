@@ -1,10 +1,9 @@
 theme: jekyll-theme-cayman
-
-itle: 窗外蟋蟀
-SEOTitle: 窗外蟋蟀的博客 | Keysaim Blog
+title: ZERO Bolg
+SEOTitle: ERO Bolg
 header-img: img/home-bg-hill.jpg
-email: keysaim@gmail.com
+email: zero@osai.club
 description: "这个是一个博客"
-keyword: "窗外蟋蟀, keysaim"
-url: "https://keysaim.github.io"
+keyword: "AI、Deep-learning、Machine-learning"
+url: "https://AIZERO.github.io"
 baseurl: ""
