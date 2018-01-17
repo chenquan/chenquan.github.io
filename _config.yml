@@ -1,9 +1,15 @@
 theme: jekyll-theme-cayman
-title: ZERO Bolg
-SEOTitle: ERO Bolg
+title: ZERO log
+SEOTitle: ZERO BolgB
 header-img: img/home-bg-hill.jpg
-email: zero@osai.club
-description: "这个是一个博客"
+
+description: "人工智能"
 keyword: "AI、Deep-learning、Machine-learning"
 url: "https://AIZERO.github.io"
 baseurl: ""
+author : ZERO
+#name :
+email: zero@osai.club
+github : AIZERO
+#twitter : username
+#feedburner : feedname
