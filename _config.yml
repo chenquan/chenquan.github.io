@@ -1,1 +1,10 @@
 theme: jekyll-theme-cayman
+
+itle: 窗外蟋蟀
+SEOTitle: 窗外蟋蟀的博客 | Keysaim Blog
+header-img: img/home-bg-hill.jpg
+email: keysaim@gmail.com
+description: "描述"
+keyword: "窗外蟋蟀, keysaim"
+url: "https://keysaim.github.io"
+baseurl: ""
