@@ -1,7 +1,7 @@
 theme: jekyll-theme-cayman
 title: ZERO Bolg
 SEOTitle: ZERO Bolg
-header-img: img/home-bg-hill.jpg
+header-img: "img/post-bg-js-module.jpg"
 
 description: "人工智能"
 keyword: "AI、Deep-learning、Machine-learning"
@@ -13,3 +13,17 @@ email: zero@osai.club
 github : AIZERO
 #twitter : username
 #feedburner : feedname
+rouge: pygments
+permalink: pretty
+paginate: 20
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author:
+      header-img: "img/home-bg-o.jpg" # We don't want posts without a header image, that whould mean white on white

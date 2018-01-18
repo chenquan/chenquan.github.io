@@ -1,8 +1,8 @@
 {
-    "name": "zfx5130-blog",
-    "title": "zfx5130 Blog",
+    "name": "ZERO-blog",
+    "title": "ZERO Blog",
     "version": "1.0.0",
-    "homepage": "http://zfx5130.github.io",
+    "homepage": "http://AIZERO.github.io",
     "author": "zfx5130",
     "devDependencies": {
         "grunt": "~0.4.5",
@@ -13,6 +13,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/zfx5130/zfx5130.github.io"
+        "url": "https://github.com/AIZERO/AIZERO.github.io"
     }
 }
