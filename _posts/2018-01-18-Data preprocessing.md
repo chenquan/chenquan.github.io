@@ -7,7 +7,7 @@ header-img: "img/picture/AI.jpg"
 description:  数据预处理 - sklearn
 ---  
 
-## 常见的数据预处理方法，以下通过sklearn的preprocessing模块来介绍;
+常见的数据预处理方法，以下通过sklearn的preprocessing模块来介绍;
 
 - 标准化（Standardization or Mean Removal and Variance Scaling)
 
