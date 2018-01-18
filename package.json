@@ -3,7 +3,7 @@
     "title": "ZERO Blog",
     "version": "1.0.0",
     "homepage": "http://AIZERO.github.io",
-    "author": "zfx5130",
+    "author": "ZERO",
     "devDependencies": {
         "grunt": "~0.4.5",
         "grunt-contrib-less": "~0.11.4",
