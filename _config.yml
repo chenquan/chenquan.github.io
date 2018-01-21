@@ -17,7 +17,7 @@ rouge: pygments
 permalink: pretty
 paginate: 20
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
-
+markdown: kramdown
 defaults:
   -
     scope:
