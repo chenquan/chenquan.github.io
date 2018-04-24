@@ -1,4 +1,12 @@
-# Optimizing
+---
+layout: post
+title: Optimizing
+categories: [deep-learning ]
+tags: [deep-learning, ]
+description: 一个深度学习优化算法概述
+---
+
+[TOC]
 
 ### 一、Gradient-Descent（梯度下降算法）
 
