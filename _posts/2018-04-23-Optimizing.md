@@ -42,7 +42,7 @@ $$
 $$
 批量梯度下降为大数据集执行冗余计算，因为它会在每次更新参数之前为类似示例重新计算梯度。SGD通过一次执行一次更新来消除冗余。因此，它通常要快得多，也可以用于在线学习。但是SGD执行频繁更新，导致目标函数的值波动很大，如图1所示。
 
-> ![sgd_fluctuation](../img/sgd_fluctuation.png)
+> ![sgd_fluctuation](/img/sgd_fluctuation.png)
 >
 > ​                                                   图1：SGD fluctuation (Source: [Wikipedia](https://upload.wikimedia.org/wikipedia/commons/f/f3/Stogra.png))
 
@@ -96,7 +96,7 @@ for i in range(nb_epochs):
 
 
 
-> ![with_momentum](../img/with_momentum.gif)
+> ![with_momentum](/img/with_momentum.gif)
 >
 > ​                                                              图2：没有动量的迭代
 
@@ -104,7 +104,7 @@ for i in range(nb_epochs):
 
 动量[ [2]]是一种有助于加快SGD在相关方向上速度并抑制其他方向振荡的方法，如图3所示。
 
-> ![with_momentum](../img/without_momentum.gif)
+> ![with_momentum](/img/without_momentum.gif)
 >
 > ​								图3：有动量的迭代
 
@@ -117,7 +117,7 @@ $$
 
 基本上，当使用动量时，就像我们把球推下山，球在下山时积聚动量，在途中变得越来越快（直到空气阻力到达其末速度，即：$$\gamma < 1$$）。同样的事情发生在我们的参数更新：动量项增加的维度，其梯度指向相同的方向（加速），并减少其梯度改变方向的维度更新（减少了震荡）。因此，我们在减少振荡的同时，获得了更快的收敛，如图4。
 
-> ![](../img/momentum.jfif)
+> ![](/img/momentum.jfif)
 >
 > ​                                                                图4：Momentum，来源[ 博客园 ](https://blog.csdn.net/tsyccnh/article/details/76673073)
 
@@ -134,7 +134,7 @@ $$
 
 Nesterov 加速梯度算法是在原有Momentum算法中的历史梯度上向前走了一段然后在与当前梯度矢量合成梯度，即在B（当前梯度所在的点）沿着历史梯度的向前走一段，然后与B的所在的梯度进行矢量合成形成实际的下降梯度，如图。
 
-> ![](../img/NAG.jfif)
+> ![](/img/NAG.jfif)
 >
 > ​                                                        图5：Nesterov 加速梯度算法，来源 [博客园](https://blog.csdn.net/tsyccnh/article/details/76673073)
 
@@ -142,7 +142,7 @@ Nesterov 加速梯度算法是在原有Momentum算法中的历史梯度上向前
 
 SGD算法就只是单纯的在当前梯度上进行参数更新，因此会在梯度复杂的区域出来极度动荡和下降速度慢的情况。而Nesterov 加速梯度算法和Momentum算法都合理的利用的历史梯度，去优化和加速下降梯度的路径，那它俩之间又有什么区别呢？
 
-> <img src="../img/nesterov.png" width="500">
+> <img src="/img/nesterov.png" width="500">
 >
 > ​                                                    图6：SGD\Nesterov \Momentum 
 >
