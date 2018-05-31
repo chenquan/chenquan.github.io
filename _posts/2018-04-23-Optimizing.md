@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Optimizing
-categories: [deep-learning ]
-tags: [deep-learning, ]
+categories: [ML]
+tags: [ML]
 description: 一个深度学习优化算法概述
 ---
 
