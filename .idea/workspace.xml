@@ -2,9 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3e08edd-4949-479c-b38f-96f29ca609c3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/avatar-zero.jpg" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/avatar-hux-home.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/avatar-hux.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/portfolio/css/timeline.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/portfolio/fonts/huxico.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/portfolio/fonts/huxico.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/portfolio/fonts/huxico.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/portfolio/fonts/huxico.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/portfolio/images/hux_avatar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/portfolio/images/intern-alitrip.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/portfolio/images/intern-lxu.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/portfolio/images/logo-jquery.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/portfolio/images/logo-kissy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/portfolio/images/logo-react.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/portfolio/images/logo-vue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/portfolio/images/newmedia.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/portfolio/images/senova.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/portfolio/images/work-busyweek.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/portfolio/images/work-hslider.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/portfolio/images/work-puzzle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/portfolio/images/work-truth.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/portfolio/images/work-uihome.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/portfolio/images/work-wepiao-bo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/portfolio/images/work-yanshuo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/portfolio/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/portfolio/js/modernizr.custom.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
@@ -31,18 +51,18 @@
       <file leaf-file-name="nav.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/nav.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-150">
+            <state relative-caret-position="275">
               <caret line="11" column="76" lean-forward="true" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="76" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="71" column="0" lean-forward="true" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+            <state relative-caret-position="1725">
+              <caret line="69" column="42" lean-forward="false" selection-start-line="69" selection-start-column="42" selection-end-line="69" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -55,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="45" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="45" />
+            <state relative-caret-position="225">
+              <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -107,8 +127,8 @@
         <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/pwa/manifest.json" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -325,7 +345,14 @@
       <option name="project" value="LOCAL" />
       <updated>1527732016496</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="update template">
+      <created>1527732531314</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1527732531314</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -810,27 +837,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/nav.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-150">
-          <caret line="11" column="76" lean-forward="true" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="45" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/favicon.ico">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/avatar-hux.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -843,8 +849,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="71" column="0" lean-forward="true" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+        <state relative-caret-position="1725">
+          <caret line="69" column="42" lean-forward="false" selection-start-line="69" selection-start-column="42" selection-end-line="69" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="76" lean-forward="true" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/favicon.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
           <folding />
         </state>
       </provider>
