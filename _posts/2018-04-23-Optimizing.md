@@ -36,6 +36,7 @@ $$
 for i in range(nb_epochs):
   params_grad = evaluate_gradient(loss_function, data, params)
   params = params - learning_rate * params_grad
+  
 ```
 
 对于预定义的迭代次数，我们首先计算`params_grad`整个数据集与参数向量的损失函数的梯度向量`params`。请注意，最先进的深度学习库提供自动区分功能，可有效计算某些参数的梯度。如果你自己求解梯度，为了防止梯度求解错误，那么梯度检测是一个好主意。（请参阅[这里](http://cs231n.github.io/neural-networks-3/)了解如何正确检查梯度的一些重要提示。）
@@ -65,6 +66,7 @@ for i in range(nb_epochs):
   for example in data:
     params_grad = evaluate_gradient(loss_function, example, params)
     params = params - learning_rate * params_grad
+    
 ```
 
 #### 3、小批量梯度下降算法
@@ -81,6 +83,7 @@ for i in range(nb_epochs):
   for batch in get_batches(data, batch_size=50):
     params_grad = evaluate_gradient(loss_function, batch, params)
     params = params - learning_rate * params_grad
+    
 ```
 
 
