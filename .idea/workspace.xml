@@ -1,8 +1,205 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3e08edd-4949-479c-b38f-96f29ca609c3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/_posts/2018-01-21-拉格朗日乘子与KTT条件.md" afterPath="$PROJECT_DIR$/_posts/2018-01-21-拉格朗日乘子与KTT条件.md" />
+    <list default="true" id="c3e08edd-4949-479c-b38f-96f29ca609c3" name="Default" comment="update template">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2014-11-20-responsive-web-design.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-03-25-digital-native.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2016-02-01-React-vs-Angular2.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/404-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/about-bg-o.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/about-bg-walle.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/avatar-hux-home.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/avatar-hux.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/blog-desktop.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/blog-keynote.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/blog-md-navbar.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/blog-sidebar.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/home-bg-art.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/forcify.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/open-source-license.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/post-alitrip-pd/post-alitrip-pd.013.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/post-alitrip-pd/post-alitrip-pd.014.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/post-alitrip-pd/post-alitrip-pd.016.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/post-alitrip-pd/post-alitrip-pd.018.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/post-alitrip-pd/post-alitrip-pd.019.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/post-alitrip-pd/post-alitrip-pd.020.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/post-alitrip-pd/post-alitrip-pd.021.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/post-alitrip-pd/post-alitrip-pd.023.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/post-alitrip-pd/post-alitrip-pd.026.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/post-alitrip-pd/post-alitrip-pd.028.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/post-alitrip-pd/post-alitrip-pd.029.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/post-alitrip-pd/post-alitrip-pd.030.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/post-alitrip-pd/post-alitrip-pd.031.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/post-c-u-ali-079717.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/post-c-u-ali-memo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/post-c-u-ali-team.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/post-eleme-pwa/Architecture.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/post-eleme-pwa/Lighthouse-after.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/post-eleme-pwa/Lighthouse-before.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/post-eleme-pwa/PRECACHE-future-routes.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/post-eleme-pwa/PUSH-link-rel-preload.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/post-eleme-pwa/after-skeleton.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/post-eleme-pwa/before-skeleton.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/post-eleme-pwa/eleme-at-io.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/post-eleme-pwa/msite-After-Optim.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/post-eleme-pwa/msite-Before-Optim.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/post-eleme-pwa/nextTick-&amp;-Load.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/post-eleme-pwa/thisTick-&amp;-Load.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/post-js-version/javascript-java.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/post-js-version/keep-calm-and-learn-javascript.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/post-kuaidi-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/post-kuaidi-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/post-metro-panorama.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/post-metro-real.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/post-metro-ui.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/post-nextgen-web-pwa/PWAR-007.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/post-nextgen-web-pwa/PWAR-014+PWA.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/post-nextgen-web-pwa/flipkart-1.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/post-nextgen-web-pwa/flipkart-2.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/post-nextgen-web-pwa/flipkart-3.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/post-nextgen-web-pwa/ios2-a2hs.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/post-nextgen-web-pwa/qcon-hybridzation.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/post-nextgen-web-pwa/qcon-trend.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/post-nextgen-web-pwa/sw-lifecycle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/post-nextgen-web-pwa/sw-race.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/post-nextgen-web-pwa/sw-sw.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/post-bg-alibaba.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/post-bg-ios9-web.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/post-bg-js-version.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/post-bg-miui-ux.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/post-bg-nextgen-web-pwa.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/post-bg-re-vs-ng2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/post-bg-see-u-ali.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/post-bg-universe.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/tag-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portfolio/fonts/huxico.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portfolio/fonts/huxico.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portfolio/fonts/huxico.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portfolio/images/hux_avatar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portfolio/images/intern-alitrip.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portfolio/images/intern-lxu.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portfolio/images/logo-jquery.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portfolio/images/logo-kissy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portfolio/images/logo-react.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portfolio/images/logo-vue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portfolio/images/newmedia.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portfolio/images/senova.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portfolio/images/work-busyweek.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portfolio/images/work-hslider.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portfolio/images/work-puzzle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portfolio/images/work-truth.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portfolio/images/work-uihome.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portfolio/images/work-wepiao-bo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portfolio/images/work-yanshuo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pwa/icons/128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pwa/icons/512.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/404.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.zh.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/about/en.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/about/zh.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/posts/2017-07-12-upgrading-eleme-to-pwa/en.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/posts/2017-07-12-upgrading-eleme-to-pwa/zh.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_layouts/keynote.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2014-01-29-hello-2015.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2014-08-16-miui6.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2014-09-04-is-pure-android-better.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2014-10-01-why-alibaba-ux-sucks.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2014-12-13-wechat-block-kuaidi.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-03-10-apple-event-2015.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-03-31-e2e_user_scenarios.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-04-14-unix-linux-note.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-04-15-os-metro.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-05-11-see-u-ali.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-05-25-js-module-loader.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-06-15-alitrip-strategy.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-07-09-js-module-7day.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-09-22-js-version.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-10-28-how-designer-learn-fe.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-12-15-ios9-safari-web.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-12-28-css-sucks-2015.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2016-06-05-pwa-in-my-pov.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2016-10-20-pwa-qcon2016.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2016-11-20-sw-101-gdgdf.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2017-02-09-nextgen-web-pwa.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2017-06-25-you-are-slaves.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2017-07-12-upgrading-eleme-to-pwa.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/about.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/animatescroll.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.nav.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/snackbar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/sw-registration.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/side-catalog.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/sidebar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/snackbar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/offline.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portfolio/css/timeline.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portfolio/fonts/huxico.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portfolio/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portfolio/js/modernizr.custom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pwa/manifest.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sw.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/11.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_404.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Blog-Pic.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/NAG.jfif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/favicon1.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/momentum.jfif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/nesterov.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/nesterov.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/nesterov_update_vector.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/picture/1365174236_6175.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/picture/640.webp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/picture/6401.webp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/picture/AI.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/post_bg_react_app.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/post_bg_weex.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/post_weex-vs-react.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/post_weex_react.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/sgd_fluctuation.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/targets_post/test_2.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/with_momentum.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/without_momentum.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/push.sh" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/contact-bg.jpg" afterPath="$PROJECT_DIR$/img/contact-bg.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/favicon.ico" afterPath="$PROJECT_DIR$/img/favicon.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/home-bg-geek.jpg" afterPath="$PROJECT_DIR$/img/home-bg-geek.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/home-bg-o.jpg" afterPath="$PROJECT_DIR$/img/home-bg-o.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/home-bg.jpg" afterPath="$PROJECT_DIR$/img/home-bg.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/icon_wechat.png" afterPath="$PROJECT_DIR$/img/icon_wechat.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/post-bg-2015.jpg" afterPath="$PROJECT_DIR$/img/post-bg-2015.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/post-bg-alitrip.jpg" afterPath="$PROJECT_DIR$/img/post-bg-alitrip.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/post-bg-android.jpg" afterPath="$PROJECT_DIR$/img/post-bg-android.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/post-bg-apple-event-2015.jpg" afterPath="$PROJECT_DIR$/img/post-bg-apple-event-2015.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/post-bg-digital-native.jpg" afterPath="$PROJECT_DIR$/img/post-bg-digital-native.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/post-bg-e2e-ux.jpg" afterPath="$PROJECT_DIR$/img/post-bg-e2e-ux.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/post-bg-js-module.jpg" afterPath="$PROJECT_DIR$/img/post-bg-js-module.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/post-bg-kuaidi.jpg" afterPath="$PROJECT_DIR$/img/post-bg-kuaidi.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/post-bg-miui6.jpg" afterPath="$PROJECT_DIR$/img/post-bg-miui6.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/post-bg-os-metro.jpg" afterPath="$PROJECT_DIR$/img/post-bg-os-metro.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/post-bg-rwd.jpg" afterPath="$PROJECT_DIR$/img/post-bg-rwd.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/post-bg-unix-linux.jpg" afterPath="$PROJECT_DIR$/img/post-bg-unix-linux.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/post-sample-image.jpg" afterPath="$PROJECT_DIR$/img/post-sample-image.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CNAME" afterPath="$PROJECT_DIR$/CNAME" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/footer.html" afterPath="$PROJECT_DIR$/_includes/footer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/head.html" afterPath="$PROJECT_DIR$/_includes/head.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/nav.html" afterPath="$PROJECT_DIR$/_includes/nav.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="$PROJECT_DIR$/_layouts/default.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/page.html" afterPath="$PROJECT_DIR$/_layouts/page.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/post.html" afterPath="$PROJECT_DIR$/_layouts/post.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/hux-blog.css" afterPath="$PROJECT_DIR$/css/hux-blog.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/hux-blog.min.css" afterPath="$PROJECT_DIR$/css/hux-blog.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/hux-blog.js" afterPath="$PROJECT_DIR$/js/hux-blog.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/hux-blog.min.js" afterPath="$PROJECT_DIR$/js/hux-blog.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/hux-blog.less" afterPath="$PROJECT_DIR$/less/hux-blog.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/mixins.less" afterPath="$PROJECT_DIR$/less/mixins.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/variables.less" afterPath="$PROJECT_DIR$/less/variables.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags.html" afterPath="$PROJECT_DIR$/tags.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,8 +210,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="2015-10-19-Markdown-Syntax.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2015-10-19-Markdown-Syntax.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tags.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tags.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -23,50 +233,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_layouts/page.html">
+      <file leaf-file-name="CNAME" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CNAME">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-              <folding>
-                <element signature="n#style#0;n#header#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="head.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/head.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="8" column="110" lean-forward="true" selection-start-line="8" selection-start-column="110" selection-end-line="8" selection-end-column="110" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="favicon1.ico" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/favicon1.ico">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="default.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_layouts/default.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding />
+      <file leaf-file-name="about.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/about.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_config.yml">
+      <file leaf-file-name="about.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="19" column="18" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+            <state relative-caret-position="-225">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -81,8 +275,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/_includes/head.html" />
-        <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_layouts/default.html" />
+        <option value="$PROJECT_DIR$/_config.yml" />
       </list>
     </option>
   </component>
@@ -92,14 +286,14 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-110" />
-    <option name="y" value="173" />
-    <option name="width" value="1938" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="617" />
+    <option name="y" value="103" />
+    <option name="width" value="1452" />
     <option name="height" value="891" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -113,7 +307,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -122,20 +315,16 @@
               <item name="AIZERO.GitHub.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="AIZERO.GitHub.io" type="462c0819:PsiDirectoryNode" />
             </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
             <path>
-              <item name="AIZERO.GitHub.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AIZERO.GitHub.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_includes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AIZERO.GitHub.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AIZERO.GitHub.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AIZERO.GitHub.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AIZERO.GitHub.io" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="AIZERO.GitHub.io" type="cbb8eebc:String" user="AIZERO.GitHub.io" />
             </path>
           </expand>
           <select />
@@ -147,10 +336,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Source code\Python\AIZERO.GitHub.io" />
+      <recent name="D:\Source code\Python\AIZERO.GitHub.io\_posts" />
       <recent name="F:\Source\ZERO\AIZERO.GitHub.io\img" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Source code\Python\AIZERO.GitHub.io" />
       <recent name="F:\Source\ZERO\AIZERO.GitHub.io\img" />
     </key>
   </component>
@@ -204,29 +396,38 @@
     <option name="localTasksCounter" value="4" />
     <servers />
   </component>
+  <component name="TodoView" selected-index="4">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-110" y="173" width="1938" height="891" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1456" height="886" extended-state="6" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32965517" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25751072" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20630373" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32965517" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -238,7 +439,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add favicon.ioc" />
-    <option name="LAST_COMMIT_MESSAGE" value="add favicon.ioc" />
+    <MESSAGE value="update template" />
+    <option name="LAST_COMMIT_MESSAGE" value="update template" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -255,11 +457,54 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/page.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="110" lean-forward="true" selection-start-line="8" selection-start-column="110" selection-end-line="8" selection-end-column="110" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/favicon1.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="18" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/page.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="5" column="36" lean-forward="true" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-          <folding>
-            <element signature="n#style#0;n#header#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -294,11 +539,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
+        <state relative-caret-position="0">
           <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-          <folding>
-            <element signature="n#style#0;n#header#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -309,16 +552,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/head.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="8" column="110" lean-forward="true" selection-start-line="8" selection-start-column="110" selection-end-line="8" selection-end-column="110" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="19" column="18" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        <state relative-caret-position="200">
+          <caret line="8" column="110" lean-forward="false" selection-start-line="8" selection-start-column="110" selection-end-line="8" selection-end-column="110" />
           <folding />
         </state>
       </provider>
@@ -327,6 +562,117 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="365">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/push.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_404.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.zh.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-3900">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-1275">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015-10-19-Markdown-Syntax.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tags.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNAME">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-225">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
