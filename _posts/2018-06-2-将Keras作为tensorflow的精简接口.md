@@ -127,3 +127,89 @@ with sess.as_default():
                                     K.learning_phase(): 0})
 ```
 
+**Keras与TensorFlowd的变量名作用域和设备作用域的兼容**
+Keras的层与模型和tensorflow的命名完全兼容，例如：
+
+```python
+from keras.layers import LSTM
+
+x = tf.placeholder(tf.float32, shape=(None, 20, 64))
+with tf.name_scope('block1'):
+    y = LSTM(32, name='mylstm')(x)
+```
+我们LSTM层的权重将会被命名为block1/mylstm_W_i, block1/mylstm_U等
+
+类似的，设备的命名也会像你期望的一样工作：
+```python
+with tf.device('/gpu:0'):
+    x = tf.placeholder(tf.float32, shape=(None, 20, 64))
+    y = LSTM(32)(x)
+```
+所有的计算和变量将会在`/gpu:0`运行。
+
+**Keras与TensorFlowd的变量作用域兼容和Graph的作用域兼容**
+
+
+1、变量作用域兼容
+
+变量共享应通过多次调用同样的Keras层或模型来实现，而不是通过TensorFlow的变量作用域实现。
+TensorFlow变量作用域将对Keras层或模型没有任何影响。
+更多Keras权重共享的信息请参考[这里](https://keras.io/zh/getting-started/functional-api-guide/#_5)
+
+Keras通过重用相同层或模型的对象来完成权值共享，这是一个例子：
+```python
+
+from keras.layers import LSTM
+# 定义一个Keras的LSTM层
+lstm = LSTM(32)
+
+# 定义两个占位符
+x = tf.placeholder(tf.float32, shape=(None, 20, 64))
+y = tf.placeholder(tf.float32, shape=(None, 20, 64))
+
+# 这两个LSTM网络的权值是共享的
+x_encoded = lstm(x)
+y_encoded = lstm(y)
+
+```
+
+2 、Graph的作用域兼容
+
+任何在tensorflow的Graph作用域定义的Keras层或模型的所有变量和操作将被生成为该Graph的一个部分，
+例如，下面的代码将会以你所期望的形式工作：
+
+```python
+from keras.layers import LSTM
+import tensorflow as tf
+
+my_graph = tf.Graph()
+with my_graph.as_default():
+    x = tf.placeholder(tf.float32, shape=(None, 20, 64))
+    y = LSTM(32)(x)      # all ops / variables in the LSTM layer are created as part of our graph
+```
+LSTM中所有的计算和变量将会在`my_graph`中被创建。
+
+**收集可训练权重与状态更新**
+某些Keras层，如状态`RNN`和`BN`层，其内部的更新需要作为训练过程的一步来进行，
+这些更新被存储在一个tensor tuple里：`layer.updates`，
+你应该生成assign操作来使在训练的每一步这些更新能够被运行，这里是例子：
+
+```python
+from keras.layers import BatchNormalization
+
+layer = BatchNormalization()(x)
+
+update_ops = []
+for old_value, new_value in layer.updates:
+    update_ops.append(tf.assign(old_value, new_value))
+```
+注意如果你使用Keras模型，`model.updates`将与上面的代码作用相同（收集模型中所有更新）
+
+另外，如果你需要显式的收集一个层的可训练权重，你可以通过`layer.trainable_weights`来实现，
+对模型而言是`model.trainable_weights`，它是一个tensorflow变量对象的列表：
+```python
+from keras.layers import Dense
+
+layer = Dense(32)(x)  # 定义和调用一个层
+print (layer.trainable_weights)  # 获取当前TensorFlow中当前层的所有变量
+```
