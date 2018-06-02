@@ -149,7 +149,7 @@ with tf.device('/gpu:0'):
     x = tf.placeholder(tf.float32, shape=(None, 20, 64))
     y = LSTM(32)(x)
 ```
-所有的计算和变量将会在`/gpu:0`运行。
+所有的计算和变量将会在`gpu:0`运行。
 
 **Keras与TensorFlowd的变量作用域兼容和Graph的作用域兼容**
 
@@ -217,3 +217,98 @@ from keras.layers import Dense
 layer = Dense(32)(x)  # 定义和调用一个层
 print (layer.trainable_weights)  # 获取当前TensorFlow中当前层的所有变量
 ```
+
+### 使用Keras模型与TensorFlow协作
+**将Keras Sequential模型转换到TensorFlow中**
+假如你已经有一个训练好的Keras模型，如VGG-16，现在你想将它应用在你的TensorFlow工作中，应该怎么办？
+
+首先，注意如果你的预训练权重含有使用`Theano`训练的卷积层的话，你需要对这些权重的卷积核进行转换，
+这是因为`Theano`和`TensorFlow`对卷积的实现不同(Theano为`channels_first`,TensorFlow为`channels_last`)，`TensorFlow`和`Caffe`实际上实现的是相关性计算。
+点击[这里](https://github.com/fchollet/keras/wiki/Converting-convolution-kernels-from-Theano-to-TensorFlow-and-vice-versa)查看详细示例。
+
+假设你从下面的Keras模型开始，并希望对其进行修改以使得它可以以一个特定的tensorflow张量`my_input_tensor`
+为输入，这个tensor可能是一个数据feeder或别的tensorflow模型的输出
+```python
+# 初始化我们的Keras模型
+model = Sequential()
+first_layer = Dense(32, activation='relu', input_dim=784)
+model.add(Dense(10, activation='softmax'))
+```
+
+你只需要在实例化该模型后，使用set_input来修改首层的输入，然后将剩下模型搭建于其上：
+```python
+# 初始化我们的Keras模型
+model = Sequential()
+first_layer = Dense(32, activation='relu', input_dim=784)
+first_layer.set_input(my_input_tensor) # 现在首层的输入为 my_input_tensor
+
+# 重新构建模型
+model.add(first_layer)
+model.add(Dense(10, activation='softmax'))
+```
+
+在这个阶段，你可以调用model.load_weights(weights_file)来加载预训练的权重
+
+然后，你或许会收集该模型的输出张量：
+```python
+output_tensor = model.output
+```
+
+**对TensorFlow张量中调用Keras模型**
+Keras模型与Keras层的行为一致，因此可以被调用于TensorFlow张量上：
+
+```python
+from keras.models import Sequential
+
+model = Sequential()
+model.add(Dense(32, activation='relu', input_dim=784))
+model.add(Dense(10, activation='softmax'))
+
+# 直接将TensorFlow的Tensor传入Keras所构建的网络中
+x = tf.placeholder(tf.float32, shape=(None, 784))
+y = model(x) 
+```
+
+**注意，调用模型时你同时使用了模型的结构与权重，当你在一个tensor上调用模型时，你就在该tensor上创造了一些操作，这些操作重用了已经在模型中出现的TensorFlow变量的对象**
+### 多GPU和分布式训练
+**将Keras模型分散在多个GPU中训练**
+TensorFlow的设备作用域完全与Keras的层和模型兼容，因此你可以使用它们来将一个图的特定部分放在不同的GPU中训练，这里是一个简单的例子：
+```python
+with tf.device('/gpu:0'):
+    x = tf.placeholder(tf.float32, shape=(None, 20, 64))
+    y = LSTM(32)(x)  # all ops in the LSTM layer will live on GPU:0
+
+with tf.device('/gpu:1'):
+    x = tf.placeholder(tf.float32, shape=(None, 20, 64))
+    y = LSTM(32)(x)  # all ops in the LSTM layer will live on GPU:1
+```
+
+注意，由LSTM层创建的变量将不会生存在GPU上，不管TensorFlow变量在哪里创建，它们总是生存在CPU上，TensorFlow将隐含的处理设备之间的转换
+
+如果你想在多个GPU上训练同一个模型的多个副本，并在多个副本中进行权重共享，首先你应该在一个设备作用域下实例化你的模型或层，然后在不同GPU设备的作用域下多次调用该模型实例，如：
+
+with tf.device('/cpu:0'):
+    x = tf.placeholder(tf.float32, shape=(None, 784))
+
+    # shared model living on CPU:0
+    # it won't actually be run during training; it acts as an op template
+    # and as a repository for shared variables
+    model = Sequential()
+    model.add(Dense(32, activation='relu', input_dim=784))
+    model.add(Dense(10, activation='softmax'))
+
+# replica 0
+with tf.device('/gpu:0'):
+    output_0 = model(x)  # all ops in the replica will live on GPU:0
+
+# replica 1
+with tf.device('/gpu:1'):
+    output_1 = model(x)  # all ops in the replica will live on GPU:1
+
+# merge outputs on CPU
+with tf.device('/cpu:0'):
+    preds = 0.5 * (output_0 + output_1)
+
+# we only run the `preds` tensor, so that only the two
+# replicas on GPU get run (plus the merge op on CPU)
+output_value = sess.run([preds], feed_dict={x: data})
