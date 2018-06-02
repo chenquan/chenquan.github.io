@@ -90,7 +90,7 @@ print(K.learning_phase())
 train_step.run(feed_dict={x: batch[0], labels: batch[1], K.learning_phase(): 1})
 
 # 测试模型
-train_step.run(feed_dict={x: batch[0], labels: batch[1], K.learning_phase(): 0})
+acc_value.eval(feed_dict={x: batch[0], labels: batch[1], K.learning_phase(): 0})
 
 ```
 
