@@ -132,6 +132,7 @@ with sess.as_default():
 ```
 
 **Keras与TensorFlowd的变量名作用域和设备作用域的兼容**
+
 Keras的层与模型和tensorflow的命名完全兼容，例如：
 
 ```python
@@ -152,7 +153,6 @@ with tf.device('/gpu:0'):
 所有的计算和变量将会在`gpu:0`运行。
 
 **Keras与TensorFlowd的变量作用域兼容和Graph的作用域兼容**
-
 
 1、变量作用域兼容
 
@@ -194,6 +194,7 @@ with my_graph.as_default():
 LSTM中所有的计算和变量将会在`my_graph`中被创建。
 
 **收集可训练权重与状态更新**
+
 某些Keras层，如状态`RNN`和`BN`层，其内部的更新需要作为训练过程的一步来进行，
 这些更新被存储在一个tensor tuple里：`layer.updates`，
 你应该生成assign操作来使在训练的每一步这些更新能够被运行，这里是例子：
@@ -219,7 +220,9 @@ print (layer.trainable_weights)  # 获取当前TensorFlow中当前层的所有�
 ```
 
 ### 使用Keras模型与TensorFlow协作
+
 **将Keras Sequential模型转换到TensorFlow中**
+
 假如你已经有一个训练好的Keras模型，如VGG-16，现在你想将它应用在你的TensorFlow工作中，应该怎么办？
 
 首先，注意如果你的预训练权重含有使用`Theano`训练的卷积层的话，你需要对这些权重的卷积核进行转换，
@@ -255,6 +258,7 @@ output_tensor = model.output
 ```
 
 **对TensorFlow张量中调用Keras模型**
+
 Keras模型与Keras层的行为一致，因此可以被调用于TensorFlow张量上：
 
 ```python
@@ -270,8 +274,11 @@ y = model(x)
 ```
 
 **注意，调用模型时你同时使用了模型的结构与权重，当你在一个tensor上调用模型时，你就在该tensor上创造了一些操作，这些操作重用了已经在模型中出现的TensorFlow变量的对象**
+
 ### 多GPU和分布式训练
+
 **将Keras模型分散在多个GPU中训练**
+
 TensorFlow的设备作用域完全与Keras的层和模型兼容，因此你可以使用它们来将一个图的特定部分放在不同的GPU中训练，这里是一个简单的例子：
 ```python
 with tf.device('/gpu:0'):

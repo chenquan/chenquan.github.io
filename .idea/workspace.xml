@@ -18,8 +18,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-06-2-将Keras作为tensorflow的精简接口.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-3660">
-                <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+              <first_editor relative-caret-position="-2390">
+                <caret line="222" column="0" lean-forward="true" selection-start-line="222" selection-start-column="0" selection-end-line="222" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -451,7 +451,14 @@
       <option name="project" value="LOCAL" />
       <updated>1527936595853</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="update 将Keras作为tensorflow的精简接口">
+      <created>1527936754303</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1527936754303</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -829,8 +836,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-06-2-将Keras作为tensorflow的精简接口.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-3660">
-            <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+          <first_editor relative-caret-position="-2390">
+            <caret line="222" column="0" lean-forward="true" selection-start-line="222" selection-start-column="0" selection-end-line="222" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
