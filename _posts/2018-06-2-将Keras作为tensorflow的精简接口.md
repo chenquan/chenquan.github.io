@@ -286,7 +286,7 @@ with tf.device('/gpu:1'):
 注意，由LSTM层创建的变量将不会生存在GPU上，不管TensorFlow变量在哪里创建，它们总是生存在CPU上，TensorFlow将隐含的处理设备之间的转换
 
 如果你想在多个GPU上训练同一个模型的多个副本，并在多个副本中进行权重共享，首先你应该在一个设备作用域下实例化你的模型或层，然后在不同GPU设备的作用域下多次调用该模型实例，如：
-
+```python
 with tf.device('/cpu:0'):
     x = tf.placeholder(tf.float32, shape=(None, 784))
 
@@ -312,3 +312,4 @@ with tf.device('/cpu:0'):
 # we only run the `preds` tensor, so that only the two
 # replicas on GPU get run (plus the merge op on CPU)
 output_value = sess.run([preds], feed_dict={x: data})
+```
