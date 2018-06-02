@@ -3,8 +3,9 @@ layout: post
 title: 数据预处理
 categories: [ML]
 tags: [ML]
-header-img: "img/picture/AI.jpg"
-description:  数据预处理 - sklearn
+
+description: 数据预处理,sklearn
+
 ---  
 
 常见的数据预处理方法，以下通过sklearn的preprocessing模块来介绍;
