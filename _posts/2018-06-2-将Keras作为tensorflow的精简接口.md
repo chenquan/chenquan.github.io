@@ -73,18 +73,18 @@ with sess.as_default():
 
 我们只是将Keras作为生成从tensor到tensor的函数（op）的快捷方法而已，优化过程完全采用的原生tensorflow的优化器，而不是Keras优化器，因此我们压根不需要Keras的Model
 
-**注意：虽然有点反直觉，但Keras的优化器要比TensorFlow的优化器快大概5-10%。虽然这种速度的差异基本上没什么差别。**
+**注意：虽然有点反直觉，但Keras的优化器要比TensorFlow的优化器快大概`5-10%`。虽然这种速度的差异基本上没什么差别。**
 
-## 训练和测试行为不同
-有些Keras层，如BN，Dropout，在训练和测试过程中的行为不一致，你可以通过打印layer.uses_learning_phase来确定当前层工作在训练模式还是测试模式。
+**训练和测试行为不同**
+有些Keras层，如`BN`，`Dropout`，在训练和测试过程中的行为不一致，你可以通过打印`layer.uses_learning_phase`来确定当前层工作在训练模式还是测试模式。
 
-如果你的模型包含这样的层，你需要指定你希望模型工作在什么模式下，通过Keras的backend你可以了解当前的工作模式：
+如果你的模型包含这样的层，你需要指定你希望模型工作在什么模式下，通过Keras的`backend`你可以了解当前的工作模式：
 ```python
 from keras import backend as K
 print(K.learning_phase())
 ```
 
-在使用回话机制的过程中，向feed_dict中传递1（训练模式）或0（测试模式）即可指定当前工作模式：
+在使用回话机制的过程中，向`feed_dict`中传递`1（训练模式）或0（测试模式）`即可指定当前工作模式：
 ```python
 # 训练模型
 train_step.run(feed_dict={x: batch[0], labels: batch[1], K.learning_phase(): 1})
@@ -93,6 +93,8 @@ train_step.run(feed_dict={x: batch[0], labels: batch[1], K.learning_phase(): 1})
 train_step.run(feed_dict={x: batch[0], labels: batch[1], K.learning_phase(): 0})
 
 ```
+
+一个训练和测试行为不同的例子：
 
 ```python
 from keras.layers import Dropout,Dense

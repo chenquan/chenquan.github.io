@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3e08edd-4949-479c-b38f-96f29ca609c3" name="Default" comment="update img">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture/keras-tensorflow-logo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2018-06-2-将Keras作为tensorflow的精简接口.md" />
+    <list default="true" id="c3e08edd-4949-479c-b38f-96f29ca609c3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2018-06-2-将Keras作为tensorflow的精简接口.md" afterPath="$PROJECT_DIR$/_posts/2018-06-2-将Keras作为tensorflow的精简接口.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,8 +18,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-06-2-将Keras作为tensorflow的精简接口.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="610">
-                <caret line="127" column="0" lean-forward="true" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
+              <first_editor relative-caret-position="3030">
+                <caret line="101" column="23" lean-forward="true" selection-start-line="101" selection-start-column="23" selection-end-line="101" selection-end-column="23" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -403,7 +402,14 @@
       <option name="project" value="LOCAL" />
       <updated>1527927276969</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="update 将Keras作为tensorflow的精简接口">
+      <created>1527932331021</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1527932331022</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -479,7 +485,8 @@
     <MESSAGE value="update template" />
     <MESSAGE value="update" />
     <MESSAGE value="update img" />
-    <option name="LAST_COMMIT_MESSAGE" value="update img" />
+    <MESSAGE value="update 将Keras作为tensorflow的精简接口" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 将Keras作为tensorflow的精简接口" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -780,8 +787,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-06-2-将Keras作为tensorflow的精简接口.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="610">
-            <caret line="127" column="0" lean-forward="true" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
+          <first_editor relative-caret-position="3030">
+            <caret line="101" column="23" lean-forward="true" selection-start-line="101" selection-start-column="23" selection-end-line="101" selection-end-column="23" />
             <folding />
           </first_editor>
           <second_editor />
