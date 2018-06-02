@@ -65,7 +65,7 @@ with sess.as_default():
 ```python
 from keras.metrics import categorical_accuracy as accuracy
 
-acc_value = accuracy(y, preds)
+acc_value = accuracy(outputs, preds)
 with sess.as_default():
     print acc_value.eval(feed_dict={img: mnist_data.test.images,
                                     labels: mnist_data.test.labels})

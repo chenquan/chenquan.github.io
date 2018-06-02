@@ -18,8 +18,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-06-2-将Keras作为tensorflow的精简接口.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="3030">
-                <caret line="101" column="23" lean-forward="true" selection-start-line="101" selection-start-column="23" selection-end-line="101" selection-end-column="23" />
+              <first_editor relative-caret-position="360">
+                <caret line="69" column="43" lean-forward="false" selection-start-line="69" selection-start-column="43" selection-end-line="69" selection-end-column="43" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -409,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1527932331022</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="update 将Keras作为tensorflow的精简接口">
+      <created>1527932522991</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1527932522991</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -787,8 +794,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-06-2-将Keras作为tensorflow的精简接口.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="3030">
-            <caret line="101" column="23" lean-forward="true" selection-start-line="101" selection-start-column="23" selection-end-line="101" selection-end-column="23" />
+          <first_editor relative-caret-position="360">
+            <caret line="69" column="43" lean-forward="false" selection-start-line="69" selection-start-column="43" selection-end-line="69" selection-end-column="43" />
             <folding />
           </first_editor>
           <second_editor />
