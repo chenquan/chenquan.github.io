@@ -8,8 +8,12 @@ tags:
     - Keras
     - TensorFlow
 ---
+>本文地址：[https://blog.keras.io/keras-as-a-simplified-interface-to-tensorflow-tutorial.html](https://blog.keras.io/keras-as-a-simplified-interface-to-tensorflow-tutorial.html)
+
+>本文作者：Francois Chollet
 
 ![](/img/picture/keras-tensorflow-logo.jpg)
+
 
 在tensorflow中调用Keras层
 让我们以一个简单的例子开始：MNIST数字分类。
