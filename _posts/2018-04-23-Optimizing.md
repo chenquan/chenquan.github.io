@@ -2,8 +2,12 @@
 layout: post
 title: Optimizing
 categories: [ML]
-tags: [ML]
+
 description: 一个深度学习优化算法概述
+header-mask:  0.3
+catalog:      true
+multilingual: true
+tags: [ML]
 ---
 
 
