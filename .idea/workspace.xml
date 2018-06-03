@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+    <list default="true" id="c3e08edd-4949-479c-b38f-96f29ca609c3" name="Default" comment="" />
     <list id="fea11531-4240-48c3-b470-d98a2caaa667" name="update 将Keras作为tensorflow的精简接口" comment="" />
-    <list default="true" id="c3e08edd-4949-479c-b38f-96f29ca609c3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/_posts/2018-06-03-AlexNet论文翻译和解读.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-06-03-AlexNet论文翻译和解读.md" afterDir="false" />
-    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,8 +30,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-06-03-AlexNet论文翻译和解读.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="285">
-                <caret line="75" column="8" lean-forward="true" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="8" />
+              <first_editor relative-caret-position="440">
+                <caret line="268" column="205" selection-start-line="268" selection-start-column="205" selection-end-line="268" selection-end-column="205" />
               </first_editor>
               <second_editor />
             </state>
@@ -76,6 +74,7 @@
         <option value="$PROJECT_DIR$/_posts/2018-06-03-漫谈归一化.md" />
         <option value="$PROJECT_DIR$/pwa/manifest.json" />
         <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/_posts/2018-06-03-AlexNet论文翻译和解读.md" />
       </list>
     </option>
   </component>
@@ -122,6 +121,17 @@
               <item name="AIZERO.GitHub.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="AIZERO.GitHub.io" type="462c0819:PsiDirectoryNode" />
               <item name="_posts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AIZERO.GitHub.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AIZERO.GitHub.io" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AIZERO.GitHub.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AIZERO.GitHub.io" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="picture" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AIZERO.GitHub.io" type="b2602c69:ProjectViewProjectNode" />
@@ -298,27 +308,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1516356810227</updated>
-    </task>
-    <task id="LOCAL-00002" summary="add favicon.ioc">
-      <created>1516374826005</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1516374826005</updated>
-    </task>
-    <task id="LOCAL-00003" summary="add favicon.ioc">
-      <created>1516375012248</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1516375012248</updated>
-    </task>
-    <task id="LOCAL-00004" summary="update template">
-      <created>1527729392688</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1527729392688</updated>
     </task>
     <task id="LOCAL-00005" summary="update template">
       <created>1527729998882</created>
@@ -642,7 +631,28 @@
       <option name="project" value="LOCAL" />
       <updated>1528033173490</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="update AlexNet论文翻译和解读.md">
+      <created>1528033280296</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1528033280296</updated>
+    </task>
+    <task id="LOCAL-00052" summary="update AlexNet论文翻译和解读.md">
+      <created>1528033354314</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1528033354314</updated>
+    </task>
+    <task id="LOCAL-00053" summary="update AlexNet论文翻译和解读.md">
+      <created>1528033422796</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1528033422797</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -665,7 +675,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.20815139" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32896653" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34115282" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10053619" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -976,8 +986,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-06-03-AlexNet论文翻译和解读.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="285">
-            <caret line="75" column="8" lean-forward="true" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="8" />
+          <first_editor relative-caret-position="440">
+            <caret line="268" column="205" selection-start-line="268" selection-start-column="205" selection-end-line="268" selection-end-column="205" />
           </first_editor>
           <second_editor />
         </state>
