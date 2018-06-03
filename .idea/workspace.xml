@@ -23,8 +23,8 @@
       <file leaf-file-name="_config.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="133">
+              <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -298,20 +298,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1516356810227</updated>
-    </task>
-    <task id="LOCAL-00009" summary="update template">
-      <created>1527731178912</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1527731178912</updated>
-    </task>
-    <task id="LOCAL-00010" summary="update template">
-      <created>1527731421003</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1527731421003</updated>
     </task>
     <task id="LOCAL-00011" summary="update template">
       <created>1527731531271</created>
@@ -642,7 +628,21 @@
       <option name="project" value="LOCAL" />
       <updated>1528034543021</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="update AlexNet论文翻译和解读.md">
+      <created>1528037186215</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1528037186215</updated>
+    </task>
+    <task id="LOCAL-00059" summary="update">
+      <created>1528037408079</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1528037408079</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -720,9 +720,9 @@
     <MESSAGE value="update img" />
     <MESSAGE value="update 将Keras作为tensorflow的精简接口" />
     <MESSAGE value="update 漫谈归一化.md" />
-    <MESSAGE value="update" />
     <MESSAGE value="update AlexNet论文翻译和解读.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="update AlexNet论文翻译和解读.md" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
@@ -982,8 +982,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="133">
+          <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
         </state>
       </provider>
     </entry>
