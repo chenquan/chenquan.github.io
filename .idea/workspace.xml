@@ -32,8 +32,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-06-03-漫谈归一化.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="74">
-                <caret line="46" column="26" lean-forward="true" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+              <first_editor relative-caret-position="494">
+                <caret line="60" column="44" lean-forward="true" selection-start-line="60" selection-start-column="44" selection-end-line="60" selection-end-column="44" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -515,7 +515,14 @@
       <option name="project" value="LOCAL" />
       <updated>1527987078808</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="update 漫谈归一化.md">
+      <created>1527987643764</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1527987643764</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -905,8 +912,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-06-03-漫谈归一化.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="74">
-            <caret line="46" column="26" lean-forward="true" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+          <first_editor relative-caret-position="494">
+            <caret line="60" column="44" lean-forward="true" selection-start-line="60" selection-start-column="44" selection-end-line="60" selection-end-column="44" />
             <folding />
           </first_editor>
           <second_editor />
