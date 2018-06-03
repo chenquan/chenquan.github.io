@@ -13,7 +13,7 @@ SE构建块的基本结构如图1所示。对于任何给定的变换$$\mathbf{F
 
 (例如卷积或一组卷积)，我们可以构造一个相应的SE块来执行特征重新校准，如下所示。特征U首先通过squeeze操作，该操作跨越空间维度W×H聚合特征映射来产生通道描述符。这个描述符嵌入了通道特征响应的全局分布，使来自网络全局感受野的信息能够被其较低层利用。这之后是一个excitation操作，其中通过基于通道依赖性的自门机制为每个通道学习特定采样的激活，控制每个通道的激励。然后特征映射U被重新加权以生成SE块的输出，然后可以将其直接输入到随后的层中。
 
-> ![Squeeze-and-Excitation](img/picture/3232548-f0e4dc6cd95a89dd.png)    
+> ![Squeeze-and-Excitation](/img/picture/3232548-f0e4dc6cd95a89dd.png)    
 >
 > ​                                                      图1. Squeeze-and-Excitation块                                                	    
 
