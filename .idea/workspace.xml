@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3e08edd-4949-479c-b38f-96f29ca609c3" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/picture/3232548-5afdf050c8ceb56d.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2018-06-03-漫谈归一化.md" afterPath="$PROJECT_DIR$/_posts/2018-06-03-漫谈归一化.md" />
     </list>
     <list id="fea11531-4240-48c3-b470-d98a2caaa667" name="update 将Keras作为tensorflow的精简接口" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,12 +15,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="2018-06-03-Squeeze-and-Excitation Networks论文翻译.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-06-03-Squeeze-and-Excitation Networks论文翻译.md">
+      <file leaf-file-name="2018-06-2-将Keras作为tensorflow的精简接口.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-06-2-将Keras作为tensorflow的精简接口.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="510">
-                <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="3" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2018-06-03-漫谈归一化.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-06-03-漫谈归一化.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="572">
+                <caret line="64" column="8" lean-forward="true" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2015-10-19-Markdown-Syntax.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2015-10-19-Markdown-Syntax.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="100">
+                <caret line="4" column="15" lean-forward="false" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2018-01-19-如何成为自然语言处理工程师.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-01-19-如何成为自然语言处理工程师.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="30">
+                <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2018-04-23-Optimizing.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-04-23-Optimizing.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="3" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -55,7 +107,6 @@
         <option value="$PROJECT_DIR$/_posts/2018-01-18-Data preprocessing.md" />
         <option value="$PROJECT_DIR$/_posts/2018-06-2-将Keras作为tensorflow的精简接口.md" />
         <option value="$PROJECT_DIR$/_posts/2018-06-03-漫谈归一化.md" />
-        <option value="$PROJECT_DIR$/_posts/2018-06-03-Squeeze-and-Excitation Networks论文翻译.md" />
       </list>
     </option>
   </component>
@@ -155,9 +206,6 @@
       </list>
     </option>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -169,6 +217,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1516356810227</updated>
+    </task>
+    <task id="LOCAL-00001" summary="add favicon.ioc">
+      <created>1516374592242</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1516374592242</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add favicon.ioc">
+      <created>1516374826005</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1516374826005</updated>
     </task>
     <task id="LOCAL-00003" summary="add favicon.ioc">
       <created>1516375012248</created>
@@ -471,49 +533,7 @@
       <option name="project" value="LOCAL" />
       <updated>1527988346728</updated>
     </task>
-    <task id="LOCAL-00046" summary="update 漫谈归一化.md">
-      <created>1527988401810</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1527988401810</updated>
-    </task>
-    <task id="LOCAL-00047" summary="update Squeeze-and-Excitation Networks论文翻译.md">
-      <created>1528011752573</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1528011752573</updated>
-    </task>
-    <task id="LOCAL-00048" summary="update Squeeze-and-Excitation Networks论文翻译.md">
-      <created>1528011876707</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1528011876707</updated>
-    </task>
-    <task id="LOCAL-00049" summary="update Squeeze-and-Excitation Networks论文翻译.md">
-      <created>1528011914370</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1528011914370</updated>
-    </task>
-    <task id="LOCAL-00050" summary="update Squeeze-and-Excitation Networks论文翻译.md">
-      <created>1528011964652</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1528011964653</updated>
-    </task>
-    <task id="LOCAL-00051" summary="update Squeeze-and-Excitation Networks论文翻译.md">
-      <created>1528012002930</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1528012002930</updated>
-    </task>
-    <option name="localTasksCounter" value="52" />
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -529,7 +549,7 @@
     <frame x="-9" y="-9" width="1938" height="1068" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26609442" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.072424896" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32965517" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -591,14 +611,14 @@
     <MESSAGE value="update img" />
     <MESSAGE value="update 将Keras作为tensorflow的精简接口" />
     <MESSAGE value="update 漫谈归一化.md" />
-    <MESSAGE value="update Squeeze-and-Excitation Networks论文翻译.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="update Squeeze-and-Excitation Networks论文翻译.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 漫谈归一化.md" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/_posts/2017-03-13-More-Cells-used-Optimize.md" />
     <entry file="file://$PROJECT_DIR$/_posts/2017-11-15-Native&amp;Hybrid.md" />
     <entry file="file://$PROJECT_DIR$/_posts/2018-01-19-2017年感谢.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -903,19 +923,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-06-03-漫谈归一化.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="150">
-            <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-06-03-Squeeze-and-Excitation Networks论文翻译.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="510">
-            <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+          <first_editor relative-caret-position="572">
+            <caret line="64" column="8" lean-forward="true" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
             <folding />
           </first_editor>
           <second_editor />
