@@ -80,7 +80,7 @@ v2 = foo()  # Gets the same, existing v.
 assert v1 == v2
 ```
 
-**获取变量作用域 **
+**获取变量作用域**
 
 可以直接通过 tf.variable_scope()来获取变量作用域：    
 
@@ -105,7 +105,7 @@ with tf.variable_scope("bar")
 			assert foo_scope2.name == "foo" # 保持不变
 ```
 
-**变量作用域的初始化 **
+**变量作用域的初始化**
 
 变量作用域可以默认携带一个初始化器，在这个作用域中的子作用域或变量都可以继承或 者重写父作用域初始化器中的值。    
 
