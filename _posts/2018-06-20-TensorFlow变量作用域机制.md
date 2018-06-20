@@ -15,14 +15,14 @@ tags:
 ### TensorFlow变量作用域机制
 
 #### **1、tf.variable_scope()**
-variable_scope 变量作用域机制在 TensorFlow 中主要由两部分组成：
-- 当 tf.get_variable_scope().reuse == False 时， variable_scope 作用域只能用来创建新变量
-- 当 tf.get_variable_scope().reuse == True 时，variable_scope 作用域可以用来创建新变量和共享变量
+`tf.variable_scope()` 变量作用域机制在 TensorFlow 中主要由两部分组成：
+- 当`tf.get_variable_scope().reuse == False` 时， variable_scope 作用域只能用来创建新变量
+- 当 `tf.get_variable_scope().reuse == True` 时，variable_scope 作用域可以用来创建新变量和共享变量
 
 **a、tf.get_variable_scope().reuse == False**
 
 ```python
-with tf.variable_scope("foo"): # 此时reuse默认为False，应该不能使用同一个变量名在此作用域下申请变量
+with tf.variable_scope("foo"): # 此时reuse默认为False，应此不能使用同一个变量名在此作用域下申请变量
 	v = tf.get_variable("v", [1])
 	v2 = tf.get_variable("v", [1])
 ```
@@ -82,7 +82,7 @@ assert v1 == v2
 
 **获取变量作用域**
 
-可以直接通过 tf.variable_scope()来获取变量作用域：    
+可以直接通过 `tf.variable_scope()`来获取变量作用域：    
 
 ```python
 with tf.variable_scope("foo") as foo_scope:
@@ -93,7 +93,7 @@ with tf.variable_scope(foo_scope)
 
 
 
-如果在开启的一个变量作用域里使用之前预先定义的一个作用域，则会跳过当前变量的作用域，保持预先存在的作用域不变。    
+如果在开启的一个`变量作用域`里使用之前预先定义的一个作用域，则会跳过当前变量的作用域，保持预先存在的作用域不变。    
 
 ```python
 with tf.variable_scope("foo") as foo_scope:
@@ -107,7 +107,7 @@ with tf.variable_scope("bar")
 
 **变量作用域的初始化**
 
-变量作用域可以默认携带一个初始化器，在这个作用域中的子作用域或变量都可以继承或 者重写父作用域初始化器中的值。    
+变量作用域可以默认携带一个`初始化器`，在这个作用域中的子作用域或变量都可以`继承`或者`重写`父作用域初始化器中的值。    
 
 ```python
 with tf.variable_scope("foo", initializer=tf.constant_initializer(0.4)):
@@ -136,7 +136,7 @@ with tf.variable_scope("foo"):
 
 #### **2、tf.variable_scope()**
 
-TensorFlow 中常常会有数以千计的节点，在可视化的过程中很难一下子展示出来，因此用 tf.name_scope() 为变量划分范围，在可视化中，这表示在计算图中的一个层级。 tf.name_scope() 会影响 op_name，不会影响用 get_variable()创建的变量，而会影响通过 tf.Variable()创建的变量。    
+TensorFlow 中常常会有数以千计的节点，在可视化的过程中很难一下子展示出来，因此用 `tf.name_scope()` 为变量划分范围，在可视化中，这表示在计算图中的一个层级。 `tf.name_scope() `会影响 op_name，不会影响用 get_variable()创建的变量，而会影响通过 `tf.Variable()`创建的变量。    
 
 
 
@@ -151,4 +151,4 @@ assert b.name == "foo/bar/b:0"
 assert x.op.name == "foo/bar/add"
 ```
 
-可以看出， tf.name_scope()返回的是一个字符串，如上述的"bar"。 name_scope 对用tf.get_variable()创建的变量的名字不会有任何影响，而 tf.Variable()创建的操作会被加上前缀，并且 会给操作加上名字前缀。
+可以看出，` tf.name_scope()`返回的是一个字符串，如上述的"bar"。 name_scope 对用`tf.get_variable()`创建的变量的名字不会有任何影响，而` tf.Variable()`创建的操作会被加上前缀，并且会给操作加上名字前缀。
