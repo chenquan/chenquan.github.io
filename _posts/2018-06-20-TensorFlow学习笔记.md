@@ -19,7 +19,7 @@ variable_scope 变量作用域机制在 TensorFlow 中主要由两部分组成�
 - 当 tf.get_variable_scope().reuse == False 时， variable_scope 作用域只能用来创建新变量
 - 当 tf.get_variable_scope().reuse == True 时，variable_scope 作用域可以用来创建新变量和共享变量
 
-**a、tf.get_variable_scope().reuse == False **
+** a、tf.get_variable_scope().reuse == False **
 
 ```python
 with tf.variable_scope("foo"): # 此时reuse默认为False，应该不能使用同一个变量名在此作用域下申请变量
@@ -29,7 +29,7 @@ with tf.variable_scope("foo"): # 此时reuse默认为False，应该不能使用�
 
 上述程序`v2 = tf.get_variable("v", [1])`会报错，因为使用了同一个变量名申请变量。
 
-**b、tf.get_variable_scope().reuse == True **
+** b、tf.get_variable_scope().reuse == True **
 
 
 
