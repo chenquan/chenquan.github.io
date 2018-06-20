@@ -1,3 +1,17 @@
+---
+layout: post
+title: TensorFlow变量作用域机制
+categories: [Paper]
+description: TensorFlow变量作用域机制
+header-mask:  0.3
+tags: 
+    - TensorFlow
+---
+
+
+
+
+
 ### TensorFlow变量作用域机制
 
 #### **1、tf.variable_scope()**
