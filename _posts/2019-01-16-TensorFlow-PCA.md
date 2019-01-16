@@ -26,7 +26,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 ```
 
-1. 记载数据集
+1. 加载数据集
 
 ```python
 data = datasets.load_iris(return_X_y=False)
@@ -35,9 +35,10 @@ data = datasets.load_iris(return_X_y=False)
 
 
 2. 实现PCA算法
-```python
 
-# PCA
+
+```python
+#PCA
 def pca(x,dim = 2):
     '''
     	x:输入矩阵
