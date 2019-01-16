@@ -2,37 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list id="fea11531-4240-48c3-b470-d98a2caaa667" name="update 将Keras作为tensorflow的精简接口" comment="" />
-    <list default="true" id="c3e08edd-4949-479c-b38f-96f29ca609c3" name="Default" comment="update setting">
-      <change afterPath="$PROJECT_DIR$/_posts/2018-06-14-FaceNet用于人脸识别和聚类的统一嵌入.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/picture/01/clip_colorschememapping.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/picture/01/clip_image001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/picture/01/clip_image002.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/picture/01/clip_image003.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/picture/01/clip_image004.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/picture/01/clip_image005.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/picture/01/clip_image006.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/picture/01/clip_image007.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/picture/01/clip_image008.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/picture/01/clip_image009.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/picture/01/clip_image010.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/picture/01/clip_image011.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/picture/01/clip_image012.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/picture/01/clip_image013.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/picture/01/clip_image014.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/picture/01/clip_image015.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/picture/01/clip_image016.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/picture/01/clip_image017.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/picture/01/clip_image018.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/picture/01/clip_image019.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/picture/01/clip_image020.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/picture/01/clip_image021.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/picture/01/clip_image022.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/picture/01/clip_image023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/picture/01/clip_image024.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/picture/01/clip_image025.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/picture/01/clip_image026.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/picture/01/clip_themedata.thmx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c3e08edd-4949-479c-b38f-96f29ca609c3" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/_posts/2018-06-14-FaceNet用于人脸识别和聚类的统一嵌入.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-06-14-FaceNet用于人脸识别和聚类的统一嵌入.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -61,8 +32,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-06-14-FaceNet用于人脸识别和聚类的统一嵌入.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="152">
-                <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+              <first_editor relative-caret-position="-57">
+                <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
               </first_editor>
               <second_editor />
             </state>
@@ -256,13 +227,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1516356810227</updated>
-    </task>
-    <task id="LOCAL-00015" summary="update template">
-      <created>1527732531314</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1527732531314</updated>
     </task>
     <task id="LOCAL-00016" summary="update template">
       <created>1527732737912</created>
@@ -600,7 +564,14 @@
       <option name="project" value="LOCAL" />
       <updated>1528079494779</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="update FaceNet:人脸识别和聚类的统一嵌入.md">
+      <created>1528972987159</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1528972987163</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -682,7 +653,8 @@
     <MESSAGE value="update" />
     <MESSAGE value="update AlexNet" />
     <MESSAGE value="update setting" />
-    <option name="LAST_COMMIT_MESSAGE" value="update setting" />
+    <MESSAGE value="update FaceNet:人脸识别和聚类的统一嵌入.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="update FaceNet:人脸识别和聚类的统一嵌入.md" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -934,8 +906,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-06-14-FaceNet用于人脸识别和聚类的统一嵌入.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="152">
-            <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          <first_editor relative-caret-position="-57">
+            <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
           </first_editor>
           <second_editor />
         </state>
