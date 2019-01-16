@@ -1,7 +1,7 @@
 ---
 layout: post
 title: TensorFlow-PCA
-categories: [TensorFlow，PCA]
+categories: [blog]
 tags: [Markdown]
 description: 使用TensorFlow实现PCA算法
 ---
