@@ -87,7 +87,7 @@ assert v1 == v2
 ```python
 with tf.variable_scope("foo") as foo_scope:
 	v = tf.get_variable("v", [1])
-with tf.variable_scope(foo_scope)
+with tf.variable_scope(foo_scope):
 	w = tf.get_variable("w", [1])
 ```
 
@@ -98,7 +98,7 @@ with tf.variable_scope(foo_scope)
 ```python
 with tf.variable_scope("foo") as foo_scope:
 	assert foo_scope.name == "foo"
-with tf.variable_scope("bar")
+with tf.variable_scope("bar"):
 	with tf.variable_scope("baz") as other_scope:
 		assert other_scope.name == "bar/baz"
 		with tf.variable_scope(foo_scope) as foo_scope2:
@@ -113,7 +113,7 @@ with tf.variable_scope("bar")
 with tf.variable_scope("foo", initializer=tf.constant_initializer(0.4)):
 	v = tf.get_variable("v", [1])
 	assert v.eval() == 0.4 # 被作用域初始化
-	w = tf.get_variable("w", [1], initializer=tf.constant_initializer(0.3)):
+	w = tf.get_variable("w", [1], initializer=tf.constant_initializer(0.3))
 	assert w.eval() == 0.3 # 重写初始化器的值
 	with tf.variable_scope("bar"):
 		v = tf.get_variable("v", [1])
@@ -123,7 +123,7 @@ with tf.variable_scope("foo", initializer=tf.constant_initializer(0.4)):
 		assert v.eval() == 0.2 # 重写父作用域的初始化器的值
 ```
 
-上面讲的是 variable_name，那对于 op_name 呢？在 tf.variable_scope() 作用域下的操作，也会 被加上前缀：
+上面讲的是 variable_name，那对于 op_name 呢？在 `tf.variable_scope()` 作用域下的操作，也会被加上前缀：
 
 ```python
 with tf.variable_scope("foo"):
@@ -136,7 +136,7 @@ with tf.variable_scope("foo"):
 
 #### **2、tf.variable_scope()**
 
-TensorFlow 中常常会有数以千计的节点，在可视化的过程中很难一下子展示出来，因此用 `tf.name_scope()` 为变量划分范围，在可视化中，这表示在计算图中的一个层级。 `tf.name_scope() `会影响 op_name，不会影响用 get_variable()创建的变量，而会影响通过 `tf.Variable()`创建的变量。    
+TensorFlow 中常常会有数以千计的节点，在可视化的过程中很难一下子展示出来，因此用 `tf.name_scope()` 为变量划分范围，在可视化中，这表示在计算图中的一个层级。 `tf.name_scope() `会影响 op_name，不会影响用 `tf.get_variable()`创建的变量，而会影响通过 `tf.Variable()`创建的变量。    
 
 
 
