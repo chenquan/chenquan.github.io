@@ -26,13 +26,13 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 ```
 
-1. 加载数据集
+## 1.加载数据集
 
 ```python
 data = datasets.load_iris(return_X_y=False)
 ```
 
-2. 实现PCA算法
+## 2.实现PCA算法
 ```python
 #PCA
 def pca(x,dim = 2):
@@ -60,7 +60,7 @@ def pca(x,dim = 2):
     return pca
 ```
 
-3. 详解
+## 3.详解
 
 - 去中心化：$x_i \gets x_i - \frac{1}{m}  \cdot \sum_{i=1}^{m} x_i $等价于$X  \gets X - E(X)$
 
@@ -95,14 +95,14 @@ v_new = tf.gather(v,indices=e_index_sort)
 pca = tf.matmul(x_new,v_new,transpose_b=True)
 ```
 
-4. 执行PCA算法
+## 4.执行PCA算法
 
 ```python
 pca_data = tf.constant(np.reshape(data.data,(data.data.shape[0],-1)),dtype=tf.float32)
 pca_data = pca(pca_data,dim=2)
 ```
 
-5. 展示效果
+## 5.展示效果
 
 ```python
 color_mapping = {0: sns.xkcd_rgb['bright purple'],\
