@@ -32,11 +32,7 @@ import matplotlib.pyplot as plt
 data = datasets.load_iris(return_X_y=False)
 ```
 
-
-
 2. 实现PCA算法
-
-
 ```python
 #PCA
 def pca(x,dim = 2):
@@ -63,8 +59,6 @@ def pca(x,dim = 2):
         pca = tf.matmul(x_new,v_new,transpose_b=True)
     return pca
 ```
-
-
 
 3. 详解
 
@@ -100,8 +94,6 @@ v_new = tf.gather(v,indices=e_index_sort)
 # 降维操作
 pca = tf.matmul(x_new,v_new,transpose_b=True)
 ```
-
-
 
 4. 执行PCA算法
 
