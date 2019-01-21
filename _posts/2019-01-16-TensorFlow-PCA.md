@@ -1,8 +1,8 @@
 ---
 layout: post
-title: TensorFlow-PCA
-categories: [blog]
-tags: [Markdown]
+title: 使用TensorFlow实现PCA算法
+categories: [PCA]
+tags: [TensorFlow,PCA]
 description: 使用TensorFlow实现PCA算法
 ---
 
@@ -62,7 +62,7 @@ def pca(x,dim = 2):
 
 ## 3.详解
 
-- 去中心化：$x_i \gets x_i - \frac{1}{m}  \cdot \sum_{i=1}^{m} x_i $等价于$X  \gets X - E(X)$
+- 去中心化：$$x_i \gets x_i - \frac{1}{m}  \cdot \sum_{i=1}^{m} x_i $$等价于$$X  \gets X - E(X)$$
 
 ```python
 mean = tf.reduce_mean(x,axis=1)
@@ -70,7 +70,7 @@ mean = tf.reduce_mean(x,axis=1)
 x_new = x - tf.reshape(mean,(-1,1))
 ```
 
-- 无偏差的协方差：$\frac {X^TX}{m -1}$
+- 无偏差的协方差：$$\frac {X^TX}{m -1}$$
 
 ```python
 # 无偏差的协方差矩阵
