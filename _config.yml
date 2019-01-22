@@ -5,7 +5,7 @@ header-img: img/home-bg.jpg
 email: zero@osai.club
 description: "AI|DeepLearning|MachineLearning"
 keyword: "AI|DeepLearning|MachineLearning"
-url: "http://zero.osai.club"              # your host, for absolute URL
+url: "https://zero.osai.club"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 
