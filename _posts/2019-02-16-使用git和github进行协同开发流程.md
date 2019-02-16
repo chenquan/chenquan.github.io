@@ -1,4 +1,13 @@
- **作者**：戴嘉华
+---
+layout: post
+title: 使用git和github进行协同开发流程
+categories: [git]
+description: 使用git和github进行协同开发流程
+---
+
+
+
+**作者**：戴嘉华
 
  [https://github.com/livoras/blog/issues/7](https://github.com/livoras/blog/issues/7)
 
