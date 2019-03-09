@@ -90,7 +90,14 @@ friends: [
     #     title: "Su",
     #     href: "http://su.gallery/"
     # },{
-        title: "@QuanChen13",
-        href: "https://github.com/QuanChen13"
+        title: "@Chen Quan",
+        href: "https://github.com/ChenQuan"
+    },
+    {
+    #     title: "Su",
+    #     href: "http://su.gallery/"
+    # },{
+        title: "@OpenSourceAI",
+        href: "https://github.com/OpenSourceAI"
     },
 ]
