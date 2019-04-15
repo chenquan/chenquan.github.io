@@ -112,7 +112,7 @@ plt.scatter(pca_data[:, 0], pca_data[:, 1], c=colors)
 plt.show()
 ```
 
-![](\img\picture\pca_result.png)
+![](/img/picture/pca_result.png)
 
 在线代码链接：[点击](https://colab.research.google.com/drive/161enhMcCS177JoCH2by4O5H_H7gJgoWO)(需科学上网)
 
