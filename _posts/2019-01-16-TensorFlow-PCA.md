@@ -6,7 +6,7 @@ tags: [TensorFlow,PCA]
 description: 使用TensorFlow实现PCA算法
 ---
 
-![](\img\picture\pca.png)
+![](/img/picture/pca.png)
 
 
 
