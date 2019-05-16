@@ -170,7 +170,7 @@ rpm -e --nodeps mysql　　// 强力删除模式，如果使用上面命令删�
 
 接下来我们在 Centos7 系统下使用 yum 命令安装 MySQL，需要注意的是 CentOS 7 版本中 MySQL数据库已从默认的程序列表中移除，所以在安装前我们需要先去官网下载 Yum 资源包，下载地址为：[https://dev.mysql.com/downloads/repo/yum/](https://dev.mysql.com/downloads/repo/yum/)
 
-![linux-mysql-yum-install](img/picture/linux-mysql-yum-install.png)
+![linux-mysql-yum-install](/img/picture/linux-mysql-yum-install.png)
 
 ```
 $ wget http://repo.mysql.com/mysql80-community-release-el7-3.noarch.rpm
@@ -365,7 +365,7 @@ select version();
 
 使用IDEA和maven一键打包生成jar包
 
-![spring-boot-to-jar](img/picture/spring-boot-to-jar.png)
+![spring-boot-to-jar](/img/picture/spring-boot-to-jar.png)
 
 ## Linux部署
 
