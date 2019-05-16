@@ -1,8 +1,8 @@
 ---
 layout: post
-title: flutter 编译
+title: flutter release版编译
 categories: [flutter]
-description: flutter 编译
+description: flutter release版编译
 ---
 
 
