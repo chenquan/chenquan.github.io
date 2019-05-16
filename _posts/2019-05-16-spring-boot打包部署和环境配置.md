@@ -329,13 +329,13 @@ mysql> FLUSH PRIVILEGES
 如果想myuser用户使用mypassword密码从任何主机连接到mysql服务器的话。
 
 ```mysql
-mysql> GRANT ALL PRIVILEGES ON . TO 'myuser'@'%'IDENTIFIED BY 'mypassword' WITH GRANT OPTION;
+mysql> GRANT ALL PRIVILEGES ON *.* TO 'myuser'@'%'IDENTIFIED BY 'mypassword' WITH GRANT OPTION;
 ```
 
 如果你想允许用户`myuser`从ip为`192.168.1.6`的主机连接到mysql服务器，并使用`mypassword`作为密码
 
 ```mysql
-mysql> GRANT ALL PRIVILEGES ON . TO 'myuser'@'192.168.1.3'IDENTIFIED BY 'mypassword' WITH GRANT OPTION;
+mysql> GRANT ALL PRIVILEGES ON *.* TO 'myuser'@'192.168.1.3'IDENTIFIED BY 'mypassword' WITH GRANT OPTION;
 
 ```
 ### mysql服务命令
