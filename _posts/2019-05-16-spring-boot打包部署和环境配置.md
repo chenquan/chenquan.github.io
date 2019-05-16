@@ -8,11 +8,13 @@ description: Spring Boot打包部署和环境配置
 
 
 
+[TOC]
+
 ## Java安装
 
 
 
-1. 执行命令`yum -y list java*`查看可安装java版本。
+执行命令`yum -y list java*`查看可安装java版本。
 
 ```shell
 Failed to set locale, defaulting to C
@@ -119,39 +121,39 @@ javassist.noarch                                                  3.16.1-10.el7 
 javassist-javadoc.noarch                                          3.16.1-10.el7                                  base
 ```
 
-2. 选择一个java版本进行安装，这里我们希望安装java1.8，因为我们的机器是64位的，所以选择安装`java-1.8.0-openjdk-devel.x86_64`。
+选择一个java版本进行安装，这里我们希望安装java1.8，因为我们的机器是64位的，所以选择安装`java-1.8.0-openjdk-devel.x86_64`。
 
-   执行命令
+执行命令
 
-   ```
-   $ yum install -y java-1.8.0-openjdk-devel.x86_64
-   ```
+```
+$ yum install -y java-1.8.0-openjdk-devel.x86_64
+```
 
-   执行完后会看见控制台刷出很多输出。
+执行完后会看见控制台刷出很多输出。
 
-   ```shell
-   Dependency Updated:
-     chkconfig.x86_64 0:1.7.4-1.el7        glib2.x86_64 0:2.56.1-2.el7         nspr.x86_64 0:4.19.0-1.el7_5
-     nss.x86_64 0:3.36.0-7.1.el7_6         nss-softokn.x86_64 0:3.36.0-5.el7_5 nss-softokn-freebl.x86_64 0:3.36.0-5.el7_5
-     nss-sysinit.x86_64 0:3.36.0-7.1.el7_6 nss-tools.x86_64 0:3.36.0-7.1.el7_6 nss-util.x86_64 0:3.36.0-1.1.el7_6
-     ntsysv.x86_64 0:1.7.4-1.el7
-   
-   Complete!
-   ```
+```shell
+Dependency Updated:
+  chkconfig.x86_64 0:1.7.4-1.el7        glib2.x86_64 0:2.56.1-2.el7         nspr.x86_64 0:4.19.0-1.el7_5
+  nss.x86_64 0:3.36.0-7.1.el7_6         nss-softokn.x86_64 0:3.36.0-5.el7_5 nss-softokn-freebl.x86_64 0:3.36.0-5.el7_5
+  nss-sysinit.x86_64 0:3.36.0-7.1.el7_6 nss-tools.x86_64 0:3.36.0-7.1.el7_6 nss-util.x86_64 0:3.36.0-1.1.el7_6
+  ntsysv.x86_64 0:1.7.4-1.el7
 
-   看到上面的提示，就表示已经安装完成了。
+Complete!
+```
 
-3. 检查时候安装成功,查看Java版本`(Java被安装在/usr/lib/jvm目录下面)`
+看到上面的提示，就表示已经安装完成了。
 
-   ```
-   java -version
-   ```
+检查时候安装成功,查看Java版本`(Java被安装在/usr/lib/jvm目录下面)`
+
+```
+java -version
+```
 
 
 
 ## MySql数据库
 
-1. 安装前，我们可以检测系统是否自带安装 MySQL:
+安装前，我们可以检测系统是否自带安装 MySQL:
 
 ```shell
 rpm -qa | grep mysql
@@ -250,7 +252,7 @@ $ mysqladmin -u root password 'new_password';
 
 ### 登录错误的处理
 
-1.在root权限下` mysqladmin -u root password <new_possword>;`以及`mysql`出现
+在root权限下` mysqladmin -u root password <new_possword>;`以及`mysql`出现
 
 ```shell
 Access denied for user 'root'@'localhost' (using password: NO)
@@ -372,6 +374,21 @@ select version();
 使用`nohup`不挂断地运行命令。使用`&`让程序在后台运行
 
 ```shell
-$ nohup java -jar demo-0.0.1-SNAPSHOT.jar &
+$ nohup java -jar spring-boot-api-project-seed-1.0.jar &
 ```
 
+## 停止springboot运行
+
+```shell
+$ ps -ef 
+```
+
+![kill-process](/img/picture/kill-process.png)
+
+根据运行的目录，找到PID，例如图中的`734`。然后使用
+
+```shell
+$ kill -9 734 
+```
+
+杀死该进程。
