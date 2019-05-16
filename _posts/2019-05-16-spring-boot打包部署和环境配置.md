@@ -8,8 +8,6 @@ description: Spring Boot打包部署和环境配置
 
 
 
-[TOC]
-
 ## Java安装
 
 
