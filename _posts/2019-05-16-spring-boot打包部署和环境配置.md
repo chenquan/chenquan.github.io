@@ -374,6 +374,12 @@ select version();
 ```shell
 $ nohup java -jar spring-boot-api-project-seed-1.0.jar &
 ```
+使用上述方式系统会自动将控制台日志信息写入`nohup.out`文件中。
+如果想写入自己定义的文件请使用
+```
+$ nohup java -jar spring-boot-api-project-seed-1.0.jar > log.txt &
+
+```
 
 ## 停止springboot运行
 
