@@ -395,6 +395,9 @@ $ sudo vim /usr/local/hadoop/etc/hadoop/mapred-site.xml
 ```shell
 $ /usr/local/hadoop/sbin/start-yarn.sh
 ```
+
+[http://localhost:8088/](http://localhost:8088/)
+
 ![](/img/picture/hadoop-2.png)
 
 之后需要要启动Hadoop直接使用以下命令：
