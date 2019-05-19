@@ -346,31 +346,44 @@ $ jps
 ```
 
 访问Hadoop上的浏览器
-访问Hadoop的默认端口号为50070。使用以下网址，以获取Hadoop服务在浏览器中。
+访问Hadoop的默认端口号为9870。使用以下网址，以获取Hadoop服务在浏览器中。
 
-http://localhost:50070
+http://localhost:9870
 
 ![](/img/picture/hadoop-1.png)
 
-如果发现无法访问,手动修改hdfs-site.xml 添加如下：
 
-```xml
-<property>
-  <name>dfs.http.address</name>
-  <value>127.0.0.1:50070</value>
-</property>
-
-```
-
+如果发现无法访问,手动修改hdfs-site.xml，
 修改hdfs-site.xml
 
 ```shell
 $ sudo vim /usr/local/hadoop/etc/hadoop/hdfs-site.xml
 ```
+ 添加如下：
+
+```xml
+<property>
+  <name>dfs.http.address</name>
+  <value>127.0.0.1:9870</value>
+</property>
+
+```
+
+
 
 
 ```shell
 $ sudo vi /usr/local/hadoop/etc/hadoop/yarn-site.xml
+```
+修改如下内容：
+
+```shell
+<configuration>
+    <property>
+        <name>yarn.nodemanager.aux-services</name>
+        <value>mapreduce_shuffle</value>
+    </property>
+</configuration>
 ```
 
 mapred-site.xml
