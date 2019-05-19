@@ -83,6 +83,7 @@ $ sudo vim ssh.sh
 ```shell
 sudo service ssh restart
 ```
+
 然后使用`:wq`保存文件（下同）
 这样就可以开机自动启动了
 
@@ -191,6 +192,7 @@ This command was run using /usr/local/hadoop/share/hadoop/common/hadoop-common-3
 $ cd /etc/profile.d/
 $ sudo vim hadoop.sh
 ```
+
 输入以下内容:
 
 ```shell
@@ -203,7 +205,9 @@ export HADOOP_COMMON_LIB_NATIVE_DIR=$HADOOP_HOME/lib/native
 export PATH=$PATH:$HADOOP_HOME/sbin:$HADOOP_HOME/bin
 export HADOOP_INSTALL=$HADOOP_HOME
 ```
+
 应用所有更改到当前正在运行的系统
+
 ```shell
 $ source /etc/profile
 ```
