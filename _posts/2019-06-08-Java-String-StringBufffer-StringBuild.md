@@ -1,10 +1,9 @@
 ---
 layout: post
 title: Java中String、StringBuffer、StringBuild的区别
-categories: [Hadoop]
+categories: [java]
 description: Java中String、StringBuffer、StringBuild的区别
 ---
-
 
 
 JAVA平台提供三个类：`String、StringBuild、StringBuffer`，它们可以储存和操作字符串，即包含多个字符的字符数据。
