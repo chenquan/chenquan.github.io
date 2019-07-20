@@ -15,7 +15,7 @@ description: Spring事务XML配置的五种方式
 
 ​    具体如下图：
 
-
+![spring-transaction](/img/picture/20190720/spring-transaction.jpg)
 
 
 
