@@ -1,6 +1,6 @@
 # Site settings
-title: ZERO Blog
-SEOTitle: ZERO Blog
+title: Chen Quan
+SEOTitle: Chen Quan
 header-img: img/home-bg.jpg
 email: zero@osai.club
 description: "AI|DeepLearning|MachineLearning"
@@ -11,10 +11,10 @@ baseurl: ""                             # for example, '/blog' if your blog host
 
 
 # SNS settings
-#RSS:
+RSS:
 #weibo_username:     huxpro
-#zhihu_username:     chen-quan-9-60
-#github_username:    AIZERO
+zhihu_username:     chenquan.im
+github_username:    ChenQuan
 ##twitter_username:   huxpro
 ##facebook_username:  huxpro
 # linkedin_username:  权-陈-a38627120
